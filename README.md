@@ -1,6 +1,9 @@
 # CodeIgniter 4 Application Starter
 download database [drive](https://drive.google.com/drive/folders/1P3Pi9tesg4xg_YklH97VVE7UETBkNEm5?usp=drive_link).
 
+admin username = fiqhi
+admin password = aku12345
+
 ## What is CodeIgniter?
 
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
