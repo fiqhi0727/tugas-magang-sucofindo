@@ -15,7 +15,7 @@
                     <div class="col-md-8">
                         <div class="card-body">
                             <form action="/user/update/<?= user()->id; ?>" method="post">
-                                <input type="text" name="id" value="<?= user()->id; ?>" required>
+                                <input type="hidden" name="id" value="<?= user()->id; ?>" required>
                                 <div class="form-group">
                                     <input type="text" placeholder="username" class="form-control form-control-user" name="username" value="<?= user()->username; ?>">
                                 </div>
