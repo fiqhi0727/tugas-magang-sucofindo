@@ -26,7 +26,7 @@
                                     <?php endif; ?>
                                     <li class="list-group-item"><?= user()->email; ?></li>
                                     <li class="list-group-item">
-                                        <button class="btn btn-transparent p-0 border-0"><span class="badge badge-success">edit profil</span></button>
+                                        <button class="btn btn-transparent p-0 border-0"><a href="user/edit/<?= user()->user_id; ?>" class="badge badge-success">edit profil</a></button>
                                     </li>
                                 </ul>
                             </div>
